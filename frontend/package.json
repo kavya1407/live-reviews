@@ -1,0 +1,21 @@
+{
+  "name": "live-reviews-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Live Reviews application",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 3000 --host",
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.11"
+  }
+}
